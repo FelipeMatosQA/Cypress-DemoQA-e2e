@@ -36,9 +36,9 @@ export default {
     checkBackGroundColor(elemento,r,g,b){
         return this.findElement(elemento).should("have.css","background-color",`rgb(${r}, ${g}, ${b})`);
     },
-    validadeImageSize(element,width,height){
+    validadeImageSize(element,condition,width,height){
         this.findElement(element)
-           .should("be.visible")
+           .should(condition)
            .should(([img])=>{
                expect(img.naturalWidth).to.equal(width);
                expect(img.naturalHeight).to.equal(height);
