@@ -10,6 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chai": "^4.3.10",
     "cypress": "^13.3.0"
+  },
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.5"
   }
 }
