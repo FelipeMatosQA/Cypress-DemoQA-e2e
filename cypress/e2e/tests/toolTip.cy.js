@@ -1,4 +1,4 @@
-import basePage from "../pages/basePage"
+import basePage from "../pages/basePage";
 import homePage from "../pages/homePage";
 import toolTipPage from "../pages/toolTipPage";
 
