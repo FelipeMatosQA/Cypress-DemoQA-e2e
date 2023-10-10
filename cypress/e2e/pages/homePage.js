@@ -127,7 +127,7 @@ export default{
             .should("be.visible");
     },
     clickPraticeForms(){
-        this.elementDroppable()
+        this.elementPraticeForms()
             .click();
         cy.url()
             .should("include", "/automation-practice-form");

@@ -19,6 +19,8 @@ import './commands'
 
 import '@4tw/cypress-drag-drop'
 
+import 'cypress-plugin-tab'
+
 Cypress.on('uncaught:exception', (err, runnable) => {
     return false;
   });

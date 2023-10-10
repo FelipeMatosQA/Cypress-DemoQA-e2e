@@ -49,6 +49,10 @@ export default {
     this.findElement(element)
             .check({force:true});
    },
+   checkBoxByIdAndContent(element,content){
+    this.findElement(element)
+            .check(content,{force:true});
+   },
 
    uploadFile(element,pathFile){
     this.findElement(element)

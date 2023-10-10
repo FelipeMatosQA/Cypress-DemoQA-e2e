@@ -1,0 +1,16 @@
+{
+    "firstName":"Felipe",
+    "lastName": "Matos",
+    "email":"test@test.com",
+    "gender":"Male",
+    "mobile":"0123456789",
+    "hobbies": "Reading",
+    "subjects": "Maths",
+    "dateDay":"15",
+    "dateMonth":"January",
+    "dateYear": "1990",
+    "currentAdress":"Netherlands",
+    "state":"NCR",
+    "city":"Delhi",
+    "pictureName":"QA2.jpg"
+}
