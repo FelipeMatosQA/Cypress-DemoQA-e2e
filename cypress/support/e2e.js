@@ -21,6 +21,8 @@ import '@4tw/cypress-drag-drop'
 
 import 'cypress-plugin-tab'
 
+import 'cypress-mochawesome-reporter/register'
+
 Cypress.on('uncaught:exception', (err, runnable) => {
     return false;
   });

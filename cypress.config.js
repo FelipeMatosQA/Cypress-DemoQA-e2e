@@ -5,9 +5,14 @@ module.exports = defineConfig({
     baseUrl: "https://demoqa.com/",
     defaultCommandTimeout: 10000,
     pageLoadTimeout:200000,
+    reporter: 'cypress-mochawesome-reporter',
+    reporterOptions: {
+      charts: true,
+      reportPageTitle: 'Cypress e2e portfoil'
+    },
     chromeWebSecurity: false,
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      require('cypress-mochawesome-reporter/plugin')(on);
     },
   },
 });
