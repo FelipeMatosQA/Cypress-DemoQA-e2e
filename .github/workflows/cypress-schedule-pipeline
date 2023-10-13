@@ -1,8 +1,9 @@
-name: Regression Tests
+name: Daily execution tests
 
 on: 
-  pull_request:
-    branches: [main]
+  schedule:
+    - cron: '0 5 * * 1-5'
+    
 
 jobs:
 
@@ -32,8 +33,8 @@ jobs:
           env:
             SLACK_COLOR: ${{ job.status }}
             SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-            SLACK_MESSAGE: 'Success on PR executions tests :white_check_mark:'
-            SLACK_TITLE: 'Success on PR executions tests :white_check_mark:'
+            SLACK_MESSAGE: 'Success on daily executions tests :white_check_mark:'
+            SLACK_TITLE: 'Success on daily executions tests :white_check_mark:'
             SLACK_USERNAME: SUCCESS
 
         - name: Slack Notification - Failure
@@ -42,6 +43,6 @@ jobs:
           env:
             SLACK_COLOR: ${{ job.status }}
             SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-            SLACK_MESSAGE: 'Failure on PR executions tests :fire:'
-            SLACK_TITLE: 'Failure on PR executions tests :fire:'
+            SLACK_MESSAGE: 'Failure on daily executions tests :fire:'
+            SLACK_TITLE: 'Failure on daily executions tests :fire:'
             SLACK_USERNAME: SUCCESS
