@@ -5,7 +5,7 @@ const data = require("../../fixtures/formsData.json")
 
 describe("Interact with diferent kind of forms elements",()=>{
 
-    beforeEach("Access routine",()=>{
+    beforeEach("Access routine ",()=>{
         basePage.visitDefaultUrl();
         homePage.navigateToPraticeForm();
     })
