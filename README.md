@@ -31,11 +31,11 @@ npx cypress run
 
 # Cypress-DemoQA-e2e EN-US README
 
-At this portfolio automation project, I used Cypress to automate the application "https://demoqa.com/". This application is a automation pratice tool, used for  certifications training of differents automations tests frameworks.
+In this portfolio automation project, I used Cypress to automate the application "https://demoqa.com/". This application is a automation pratice tool, used for  certifications training of differents automations tests frameworks.
 
-The pourpouse of this project was demonstrate proficiency in interact with diferent kinds of elements cosidered "complex" in automation, and go through real problems encountered day to day in  UI testing automation such as: Wait for the progress bar is complete, validate toolTips, interact with WebTables, validate broken and valid images, interact with diffretent kinds of inputs in forms, ads inside Iframes behind the elements to interact. We also used the design pattern "Page Objects" to have a better maintenance and reusability of the code, and I use fixtures files to manage data.
+The purpouse of this project was demonstrate proficiency in interacting with diferent kinds of elements cosidered "complex" in automation, and go through real problems found day to day in  UI testing automation,such as: Wait until the progress bar is complete, validate toolTips, interact with WebTables, validate broken and valid images, interact with diffretent kinds of inputs in forms, ads inside Iframes in front of the elements. We also used the design pattern "Page Objects" to have a better maintenance and reusability of the code, and I use fixtures files to manage data.
 
-About reports and execution, the "cypress-mochawesome-reporter" was used to generate the execution report. Were configured two pipelines files of cloud execution using Github Actions, the triggers were PR executions and a daily scheduled execution. There will be anexed the execution artifact of each execution and will be sent a Slack notification of each execution report.
+About reports and execution, the "cypress-mochawesome-reporter" was used to generate the execution report.There were configured two pipelines files of cloud execution using Github Actions, the triggers were PR executions and a daily scheduled execution. There will be anexed the execution artifact of each execution and will be sent a Slack notification of each execution report.
 
 # Execution Instructions
 
