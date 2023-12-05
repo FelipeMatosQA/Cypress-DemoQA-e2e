@@ -31,7 +31,7 @@ npx cypress run
 
 # Cypress-DemoQA-e2e EN-US README
 
-In this portfolio automation project, I used Cypress to automate the application "https://demoqa.com/". This application is a automation pratice tool, used for  certifications training of differents automations tests frameworks.
+On this portfolio automation project, I used Cypress to automate the application "https://demoqa.com/". This application is a automation pratice tool, used for  certifications training of differents automations tests frameworks.
 
 The purpouse of this project was demonstrate proficiency in interacting with diferent kinds of elements cosidered "complex" in automation, and go through real problems found day to day in  UI testing automation,such as: Wait until the progress bar is complete, validate toolTips, interact with WebTables, validate broken and valid images, interact with diffretent kinds of inputs in forms, ads inside Iframes in front of the elements. We also used the design pattern "Page Objects" to have a better maintenance and reusability of the code, and I use fixtures files to manage data.
 
