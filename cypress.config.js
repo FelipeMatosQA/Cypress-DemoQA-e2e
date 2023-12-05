@@ -6,9 +6,10 @@ module.exports = defineConfig({
     defaultCommandTimeout: 10000,
     pageLoadTimeout:200000,
     reporter: 'cypress-mochawesome-reporter',
+    experimentalRunAllSpecs:true,
     reporterOptions: {
       charts: true,
-      reportPageTitle: 'Cypress e2e portfoil'
+      reportPageTitle: 'Cypress e2e portfoil',
     },
     chromeWebSecurity: false,
     setupNodeEvents(on, config) {

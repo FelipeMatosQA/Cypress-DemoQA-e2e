@@ -9,7 +9,7 @@ describe("Interact with progress bar elements",()=>{
         homePage.navigateToProgressBar();
     })
 
-    it.only("Wait untill progress bar is 100%",()=>{
+    it("Wait untill progress bar is 100%",()=>{
 
       progressBarPage.clickStartButton();
       progressBarPage.waitUntilProgressBarIsFull();

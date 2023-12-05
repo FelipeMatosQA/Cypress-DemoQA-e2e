@@ -26,7 +26,7 @@ describe("Interact with web tables elements",()=>{
         webTablePage.validateValueInLineAndColumn(4,6,data.department)
     })
 
-    it.only("Verify user can edit the row in a table",()=>{
+    it("Verify user can edit the row in a table",()=>{
         webTablePage.editRegisterTwo();
         webTablePage.fillFirstName(data.alterFirstName);
         webTablePage.fillLastName(data.alterLastName);
