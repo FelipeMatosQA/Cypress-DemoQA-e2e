@@ -57,4 +57,10 @@ npx cypress open
 ## To run the tests in a headless inviroment use
 npx cypress run
 ```
+# Report 
+
+In the image below, you can see the report layout, that has passed all tests.
+
+![ALL TESTS PASSED](https://github.com/FelipeMatosQA/Cypress-DemoQA-e2e/assets/121990373/643510dd-7051-48cb-8e1e-2f1c4b9018b4)
+
 
