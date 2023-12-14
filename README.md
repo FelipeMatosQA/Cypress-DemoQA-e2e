@@ -15,7 +15,6 @@ Para clonar este repositório execute esses comandos:
 
 ```bash
 ## Clone esse repositório para um diretório local.
-git clone ## Clone esse repositório para um diretório local.
 git clone https://github.com/FelipeMatosQA/Cypress-DemoQA-e2e.git
 ## Entre na pasta do projeto
 cd Cypress-DemoQA-e2e
