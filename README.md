@@ -1,4 +1,4 @@
-# Cypress-DemoQA-e2e PT-BR README
+# Sobre o projeto
 
 Neste projeto de automação de portfólio utilizamos Cypress para automatizar a aplicação "https://demoqa.com/", a aplicação apontada é um site de pratica de automação utilizado para treinamento de certificações de diferentes frameworks. 
 
@@ -28,7 +28,7 @@ npx cypress open
 npx cypress run
 ```
 
-# Cypress-DemoQA-e2e EN-US README
+# About the project
 
 On this portfolio automation project, I used Cypress to automate the application "https://demoqa.com/". This application is a automation pratice tool, used for  certifications training of differents automations tests frameworks.
 
