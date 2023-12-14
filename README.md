@@ -26,18 +26,6 @@ npx cypress install --force
 npx cypress open
 ## Para executar os testes headless
 npx cypress run
-
-## Entre na pasta do projeto
-cd Cypress-DemoQA-e2e
-## Instale o node-modules
-npm install
-## Instale o cypress localmente
-npx cypress install --force
-## Caso deseje abrir a interface gráfica
-npx cypress open
-## Para executar os testes headless
-npx cypress run
-
 ```
 
 # Cypress-DemoQA-e2e EN-US README
@@ -56,19 +44,7 @@ To clone this project from Github, run these commands:
 
 ```bash
 ## Clone this repository to a local directory.
-git clone ## Clone esse repositório para um diretório local.
 git clone https://github.com/FelipeMatosQA/Cypress-DemoQA-e2e.git
-## Entre na pasta do projeto
-cd Cypress-DemoQA-e2e
-## Instale o node-modules
-npm install
-## Instale o cypress localmente
-npx cypress install --force
-## Caso deseje abrir a interface gráfica
-npx cypress open
-## Para executar os testes headless
-npx cypress run
-
 ## Enter in the project folder
 cd Cypress-DemoQA-e2e
 ## Install the node modules
